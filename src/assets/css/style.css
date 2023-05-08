@@ -27,7 +27,7 @@ body.menu-show {
 }
 
 a {
-    color: #CA82F8;
+    color: #41B783;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -35,7 +35,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: #CA82F8;
+    color: #41B783;
 }
 
 a:focus,
@@ -259,7 +259,7 @@ h6 {
 }
 
 #colorlib-main-nav ul li.active a {
-    color: #CA82F8;
+    color: #41B783;
 }
 
 #colorlib-main-nav .form-group {
@@ -312,7 +312,7 @@ h6 {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     border-radius: 0;
-    background: #CA82F8;
+    background: #41B783;
     color: #fff;
     border: none;
     padding: 16px;
@@ -416,10 +416,9 @@ header .colorlib-navbar-brand .colorlib-logo {
     font-weight: 400;
     letter-spacing: 5px;
     padding: 7px;
-    border: 1px solid #000;
     display: block;
     text-align: center;
-    background: #000;
+    background: white;
 }
 
 header .colorlib-navbar-brand .colorlib-logo span {
@@ -578,7 +577,7 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
     font-size: 34px;
     font-weight: 400;
     line-height: 1.5;
-    margin-bottom: 1.5em;
+    margin-bottom: 0.5em;
     color: #000;
     position: relative;
 }
@@ -950,7 +949,7 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
 
 .work-entry .work-img {
     width: 100%;
-    height: 700px;
+    height: 300px;
     margin-bottom: 40px;
     display: table;
     text-align: center;
@@ -960,9 +959,10 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
 .work-entry .work-img .display-t {
     display: table-cell;
     vertical-align: middle;
-    height: 700px;
+    height: 300px;
     position: relative;
     z-index: 0;
+    background: #314559;
 }
 
 .work-entry .work-img .display-t:after {
@@ -1312,16 +1312,16 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
 }
 
 .btn-primary {
-    background: #CA82F8;
+    background: #41B783;
     color: #fff;
-    border: 2px solid #CA82F8;
+    border: 2px solid #41B783;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-    background: #d49af9 !important;
-    border-color: #d49af9 !important;
+    background: #41B783 !important;
+    border-color: #41B783 !important;
 }
 
 .btn-primary.btn-outline {
@@ -1333,7 +1333,7 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
 .btn-primary.btn-outline:hover,
 .btn-primary.btn-outline:focus,
 .btn-primary.btn-outline:active {
-    background: #CA82F8;
+    background: #41B783;
     color: #fff;
 }
 
@@ -1669,7 +1669,7 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
 }
 
 .contact-info li a {
-    color: #CA82F8;
+    color: #41B783;
 }
 
 .form-control {
@@ -1710,11 +1710,11 @@ input[type="text"] {
 
 .colorlib-social-icons i {
     font-size: 24px;
-    color: #CA82F8;
+    color: #41B783;
 }
 
 #footer {
-    padding: 8em 0;
+    padding: 4em 0;
     display: block;
     width: 100%;
 }
@@ -1737,7 +1737,7 @@ input[type="text"] {
 
 #footer p.colorlib-social-icons i {
     font-size: 24px;
-    color: #CA82F8;
+    color: #41B783;
 }
 
 #footer p .block {
@@ -1782,4 +1782,9 @@ input[type="text"] {
 
 .js .animate-box {
     opacity: 0;
+}
+
+.v-sheet.v-app-bar.v-toolbar:not(.v-sheet--outlined) {
+    box-shadow: 0px 2px 11px 0px #39b98361;
+    box-shadow: none;
 }
