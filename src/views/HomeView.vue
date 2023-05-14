@@ -11,7 +11,10 @@
               <div class="about-desc">
                 <div class="owl-carousel3">
                   <div class="item">
-                    <h2><span>I'm</span><span>A Frontend Developer</span></h2>
+                    <h2>
+                      <span>I'm Đorđe Krstić</span
+                      ><span>A Frontend Developer</span>
+                    </h2>
                   </div>
                 </div>
                 <div class="desc">
@@ -44,9 +47,11 @@
                     <button href="#" class="btn btn-primary btn-outline">
                       Contact Me!
                     </button>
-                    <button href="#" class="btn btn-primary">
-                      Download CV
-                    </button>
+                    <a href="#" download>
+                      <button href="#" class="btn btn-primary">
+                        Download CV
+                      </button>
+                    </a>
                   </p>
                 </div>
               </div>
@@ -55,7 +60,7 @@
         </div>
       </div>
       <div id="colorlib-services">
-        <div class="container">
+        <div class="container" ref="about">
           <div class="row text-center">
             <h2 class="bold">Services</h2>
           </div>
@@ -103,8 +108,98 @@
                 </div>
                 <div
                   class="one-forth services-img"
-                  style="background-image: url(images/services-img-1.jpg)"
+                  :style="{
+                    backgroundImage:
+                      'url(' + require('@/assets/katib.jpg') + ')',
+                  }"
                 ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="colorlib-services">
+        <div class="container" style="margin-top: 45px">
+          <div class="row text-center">
+            <h2 class="bold">Background</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="services-flex">
+                <div class="education">
+                  <div class="row">
+                    <div
+                      class="col-md-12 col-md-offset-0 animate-box intro-heading"
+                    >
+                      <h2>My Educations</h2>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="services animate-box">
+                        <div class="d-flex">
+                          <span class="mr-3 dateExperience">2016 - 2021</span>
+                          <h3>- Information Technology School - ITS</h3>
+                        </div>
+                        <div
+                          class="d-flex"
+                          style="
+                            border-top: 1px solid #ebebeb;
+                            padding-top: 20px;
+                          "
+                        >
+                          <span class="mr-3 dateExperience"
+                            >6 months (2022)</span
+                          >
+                          <h3>- Vue JS - Esenca Software</h3>
+                        </div>
+                        <div class="d-flex">
+                          <span class="mr-3 dateExperience"
+                            >4 months (2023)</span
+                          >
+                          <h3>- English Language - Tesla Academy</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="services-flex">
+                <div class="education">
+                  <div class="row">
+                    <div
+                      class="col-md-12 col-md-offset-0 animate-box intro-heading"
+                    >
+                      <h2>My Experience</h2>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="services animate-box">
+                        <div class="d-flex">
+                          <span class="mr-3 dateExperience">2021 - Today</span>
+                          <h3>- Frontend Developer - AppWorks</h3>
+                        </div>
+                        }}
+                        <ul>
+                          <li>HTML / CSS / SCSS</li>
+                        </ul>
+
+                        <div class="d-flex">
+                          <span class="mr-3 dateExperience">2020 - 2020</span>
+                          <h3>- Web Designer Intern - The Social Formula</h3>
+                        </div>
+                        <ul>
+                          <li>HTML / CSS / SCSS</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -137,12 +232,16 @@
                 <a
                   href="work.html"
                   class="work-img"
-                  style="background-image: url(images/work-1.jpg)"
+                  :style="{
+                    backgroundImage:
+                      'url(' + require('@/assets/katib.jpg') + ')',
+                  }"
                 >
                   <div class="display-t"></div>
                 </a>
                 <div class="col-md-10">
                   <div class="desc">
+                    <h3 class="title-services">Software</h3>
                     <p>
                       Far far away, behind the word mountains, far from the
                       countries Vokalia and Consonantia, there live the blind
@@ -159,12 +258,16 @@
                 <a
                   href="work.html"
                   class="work-img"
-                  style="background-image: url(images/work-2.jpg)"
+                  :style="{
+                    backgroundImage:
+                      'url(' + require('@/assets/maul.jpg') + ')',
+                  }"
                 >
                   <div class="display-t"></div>
                 </a>
                 <div class="col-md-10">
                   <div class="desc">
+                    <h3 class="title-services">E-commerce</h3>
                     <p>
                       Far far away, behind the word mountains, far from the
                       countries Vokalia and Consonantia, there live the blind
@@ -181,12 +284,16 @@
                 <a
                   href="work.html"
                   class="work-img"
-                  style="background-image: url(images/work-3.jpg)"
+                  :style="{
+                    backgroundImage:
+                      'url(' + require('@/assets/padme.jpg') + ')',
+                  }"
                 >
                   <div class="display-t"></div>
                 </a>
                 <div class="col-md-10">
                   <div class="desc">
+                    <h3 class="title-services">Website</h3>
                     <p>
                       Far far away, behind the word mountains, far from the
                       countries Vokalia and Consonantia, there live the blind
@@ -203,12 +310,16 @@
                 <a
                   href="work.html"
                   class="work-img"
-                  style="background-image: url(images/work-4.jpg)"
+                  :style="{
+                    backgroundImage:
+                      'url(' + require('@/assets/nunb.jpg') + ')',
+                  }"
                 >
                   <div class="display-t"></div>
                 </a>
                 <div class="col-md-10">
                   <div class="desc">
+                    <h3 class="title-services">PDF Reader</h3>
                     <p>
                       Far far away, behind the word mountains, far from the
                       countries Vokalia and Consonantia, there live the blind

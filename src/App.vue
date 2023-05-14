@@ -1,18 +1,38 @@
 <template>
   <v-app>
-    <v-app-bar app color="white" dark>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
+    <v-toolbar app color="white" dark>
+      <v-container>
+        <v-row align="center">
+          <v-col cols="auto">
             <div class="colorlib-navbar-brand">
-              <a class="colorlib-logo" href="index.html">
+              <a class="colorlib-logo" href="">
                 <img :src="require('@/assets/myLogo.png')" width="60" />
               </a>
             </div>
-          </div>
-        </div>
-      </div>
-    </v-app-bar>
+          </v-col>
+
+          <v-spacer></v-spacer>
+
+          <v-col cols="auto">
+            <router-link to="/">
+              <v-toolbar-title>Home</v-toolbar-title>
+            </router-link>
+          </v-col>
+
+          <v-col cols="auto">
+            <router-link to="/about">
+              <v-toolbar-title>About</v-toolbar-title>
+            </router-link>
+          </v-col>
+
+          <v-col cols="auto">
+            <router-link to="/contact">
+              <v-toolbar-title>Contact</v-toolbar-title>
+            </router-link>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-toolbar>
 
     <v-main>
       <router-view />
@@ -21,82 +41,6 @@
     <footer>
       <div id="footer">
         <div class="container">
-          <div class="row">
-            <div class="col-md-4 col-pb-sm">
-              <div class="row">
-                <div class="col-md-10">
-                  <h2>Let's Talk</h2>
-                  <p>
-                    A small river named Duden flows by their place and supplies.
-                  </p>
-                  <p><a href="#">noah@info.com</a></p>
-                  <p class="colorlib-social-icons">
-                    <a href="#"><i class="icon-facebook4"></i></a>
-                    <a href="#"><i class="icon-twitter3"></i></a>
-                    <a href="#"><i class="icon-googleplus"></i></a>
-                    <a href="#"><i class="icon-dribbble2"></i></a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-pb-sm">
-              <h2>Latest Blog</h2>
-              <div class="f-entry">
-                <a
-                  href="#"
-                  class="featured-img"
-                  style="background-image: url(images/img-1.jpg)"
-                ></a>
-                <div class="desc">
-                  <span>February 15, 2018</span>
-                  <h3><a href="#">Art Gallery in Japan</a></h3>
-                </div>
-              </div>
-              <div class="f-entry">
-                <a
-                  href="#"
-                  class="featured-img"
-                  style="background-image: url(images/img-2.jpg)"
-                ></a>
-                <div class="desc">
-                  <span>February 9, 2018</span>
-                  <h3><a href="#">A Japanese Constellation</a></h3>
-                </div>
-              </div>
-              <div class="f-entry">
-                <a
-                  href="#"
-                  class="featured-img"
-                  style="background-image: url(images/img-3.jpg)"
-                ></a>
-                <div class="desc">
-                  <span>February 15, 2018</span>
-                  <h3><a href="#">Road Trip</a></h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-pb-sm">
-              <h2>Newsletter</h2>
-              <p>
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia
-              </p>
-              <div class="subscribe text-center">
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control text-center"
-                    placeholder="Enter Email address"
-                  />
-                  <input
-                    type="submit"
-                    value="Subscribe"
-                    class="btn btn-primary btn-custom"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
           <div class="row">
             <div class="col-md-12 text-center">
               <p>© 2023 Djordje Krstić</p>
@@ -110,13 +54,18 @@
 
 <script>
 export default {
-  name: "App",
-
-  data: () => ({
-    //
-  }),
+  data() {
+    return {
+      drawer: false,
+    };
+  },
 };
 </script>
 <style>
 @import "@/assets/css/style.css";
+header {
+  height: 120px !important;
+  width: 100%;
+  box-shadow: none !important;
+}
 </style>
