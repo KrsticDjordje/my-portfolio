@@ -13,23 +13,7 @@
 
           <v-spacer></v-spacer>
 
-          <v-col cols="auto">
-            <router-link to="/">
-              <v-toolbar-title>Home</v-toolbar-title>
-            </router-link>
-          </v-col>
-
-          <v-col cols="auto">
-            <router-link to="/about">
-              <v-toolbar-title>About</v-toolbar-title>
-            </router-link>
-          </v-col>
-
-          <v-col cols="auto">
-            <router-link to="/contact">
-              <v-toolbar-title>Contact</v-toolbar-title>
-            </router-link>
-          </v-col>
+          <span class="mdi mdi-menu-open"></span>
         </v-row>
       </v-container>
     </v-toolbar>

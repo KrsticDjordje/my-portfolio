@@ -15,3 +15,4 @@ new Vue({
   vuetify: new Vuetify(),
   render: h => h(App)
 })
+

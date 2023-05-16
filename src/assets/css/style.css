@@ -99,6 +99,7 @@ h6 {
     -ms-transform: scale(1);
     -o-transform: scale(1);
     transform: scale(1);
+    margin-top: -60px;
 }
 
 .menu-show #colorlib-page {
@@ -471,6 +472,10 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
     left: -50px;
 }
 
+.col-md-12 {
+    position: relative;
+}
+
 .rotate .heading {
     font-family: "Karla", Arial, sans-serif;
     font-size: 14px;
@@ -563,9 +568,13 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
     z-index: -1;
 }
 
+.bold.bcg {
+    font-size: 220px;
+}
+
 @media screen and (max-width: 768px) {
     .bold {
-        font-size: 60px;
+        font-size: 60px !important;
     }
 }
 
@@ -954,6 +963,8 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
     display: table;
     text-align: center;
     text-decoration: none;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .work-entry .work-img .display-t {
@@ -1717,6 +1728,7 @@ input[type="text"] {
     margin-top: -50px;
     display: block;
     width: 100%;
+    background: #f3f3f3;
 }
 
 #footer h2 {
@@ -1791,4 +1803,33 @@ input[type="text"] {
 
 .dateExperience {
     font-size: 16px;
+}
+
+div#colorlib-work {
+    padding-bottom: 20px;
+}
+
+.icons:hover {
+    color: #535353;
+    padding: 4px;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.icons {
+    color: #39b983;
+    font-size: 25px;
+    margin-right: 2px;
+    padding: 4px;
+    transition: 0.3s;
+}
+
+.icons.two {
+    color: #314559;
+}
+
+span.mdi.mdi-menu-open {
+    font-size: 30px;
+    margin: 0;
+    color: black;
 }
