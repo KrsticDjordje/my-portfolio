@@ -27,7 +27,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
-              <p>© 2023 Djordje Krstić</p>
+              <p>© 2024 Djordje Krstić</p>
             </div>
           </div>
         </div>
@@ -47,6 +47,7 @@ export default {
 </script>
 <style>
 @import "@/assets/css/style.css";
+
 header {
   height: 120px !important;
   width: 100%;

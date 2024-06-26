@@ -45,11 +45,11 @@
                     </a>
                   </p>
                   <p>
-                    <a href="@/assets/MyResume _ Krstic Djordje.pdf" download>
+                    <!-- <a href="@/assets/Resume-Krstic Djordje.pdf" download>
                       <button class="btn btn-primary btn-outline">
                         Download CV
                       </button>
-                    </a>
+                    </a> -->
                     <a href="mailto:djordje.krstic97@gmail.com">
                       <button class="btn btn-primary">Contact me</button>
                     </a>
@@ -233,7 +233,7 @@
                   <div class="desc">
                     <h3 class="title-services">Software</h3>
                     <p>
-                      The "Katib" project is an innovative solution for
+                      The "Litteraworks" project is an innovative solution for
                       transcribing video into text. With its diverse
                       functionalities, it allows users to easily and efficiently
                       translate and follow video content that they can upload
@@ -266,7 +266,7 @@
                       brings.
                     </p>
                     <p>
-                      <a href="https://padme.mpanel.app/" target="_blank">
+                      <a href="https://litteraworks.cloud/" target="_blank">
                         <span class="mdi mdi-web icons two"></span>
                       </a>
                       <a href="https://github.com/KrsticDjordje/vue-software" target="_blank">
@@ -321,9 +321,9 @@
                       worked on to provide a seamless user experience.
                     </p>
                     <p>
-                      <a href="https://padme.mpanel.app/" target="_blank">
+                      <!-- <a href="https://maul.mpanel.app/" target="_blank">
                         <span class="mdi mdi-web icons two"></span>
-                      </a>
+                      </a> -->
                       <a href="https://github.com/KrsticDjordje/e-commerce-vue" target="_blank">
                         <span class="mdi mdi-github icons two"></span>
                       </a>
@@ -378,7 +378,7 @@
                       part of this project.
                     </p>
                     <p>
-                      <a href="https://padme.mpanel.app/" target="_blank">
+                      <a href="https://partizan.rs/" target="_blank">
                         <span class="mdi mdi-web icons two"></span>
                       </a>
                       <a href="https://github.com/KrsticDjordje/vue-website" target="_blank">
