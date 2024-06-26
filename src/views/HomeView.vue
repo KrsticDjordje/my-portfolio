@@ -21,20 +21,16 @@
                     <h2 class="heading">About</h2>
                   </div>
                   <p>
-                    After creating over 40+ websites using HTML, CSS, and
-                    JavaScript, I started exploring and learning Vue.js, a new
-                    technology that immediately caught my attention because of
-                    its simplicity and flexibility. Soon, I began building web
-                    applications using Vue.js along with Vuex and Vue Router,
-                    creating elegant and intuitive user interfaces. <br />
-                    <br />
-                    Using Vue.js, I have developed a variety of projects,
-                    including different web applications and websites. I
-                    leveraged my knowledge of CSS and HTML to design beautiful
-                    user interfaces using libraries like Tailwind, Bootstrap,
-                    and Vuetify. Working with my team, I have contributed to
-                    various projects, working on design, development, and
-                    implementation.
+                    Passionate about front-end programming, with a zeal for creating elegant user interfaces and
+                    functional web applications. Throughout my career, I have worked on a wide range of projects,
+                    including web applications, websites, and hybrid mobile applications. My work has often involved
+                    collaborating with backend teams to achieve synergy between user experience and backend
+                    functionality.
+                    <br /> <br />
+                    I have significant experience using the Vue.js ecosystem, including Vue.js, Nuxt.js, Vuex, Vue
+                    Router, Vuetify, and others. Through these technologies, I have effectively developed scalable
+                    applications that offer intuitive user interfaces and optimal performance. Additionally, I am
+                    proficient in integrating with RESTful APIs and managing application state.
                   </p>
                   <p class="colorlib-social-icons">
                     <a href="https://github.com/KrsticDjordje/" target="_blank">
@@ -88,9 +84,9 @@
                           <li>HTML / CSS / SCSS</li>
                           <li>Bootstrap / Tailwind</li>
                           <li>JavaScript</li>
-                          <li>VueJS</li>
-                          <li>Axios</li>
+                          <li>VueJS / NuxtJS</li>
                           <li>Vue Router / Vuex / Vuetify</li>
+                          <li>Quasar</li>
                         </ul>
                       </div>
                     </div>
@@ -153,7 +149,7 @@
                             padding-top: 20px;
                           ">
                           <span class="mr-3 dateExperience">6 months (2022)</span>
-                          <h3>- Vue JS - Esenca Software</h3>
+                          <h3>Course - Esenca Software</h3>
                         </div>
                         <div class="d-flex">
                           <span class="mr-3 dateExperience">4 months (2023)</span>
