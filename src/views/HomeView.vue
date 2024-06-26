@@ -12,17 +12,12 @@
                 <div class="owl-carousel3">
                   <div class="item">
                     <h2>
-                      <span>I'm Đorđe Krstić</span
-                      ><span style="color: #314559">Frontend Developer</span>
+                      <span>I'm Đorđe Krstić</span><span style="color: #314559">Frontend Developer</span>
                     </h2>
                   </div>
                 </div>
                 <div class="desc">
-                  <div
-                    class="rotate"
-                    data-aos="fade-right"
-                    data-aos-duration="1000"
-                  >
+                  <div class="rotate" data-aos="fade-right" data-aos-duration="1000">
                     <h2 class="heading">About</h2>
                   </div>
                   <p>
@@ -45,10 +40,7 @@
                     <a href="https://github.com/KrsticDjordje/" target="_blank">
                       <span class="mdi mdi-github icons"></span>
                     </a>
-                    <a
-                      href="https://rs.linkedin.com/in/djordjekrstic97"
-                      target="_blank"
-                    >
+                    <a href="https://rs.linkedin.com/in/djordjekrstic97" target="_blank">
                       <span class="mdi mdi-linkedin icons"></span>
                     </a>
                   </p>
@@ -59,7 +51,7 @@
                       </button>
                     </a>
                     <a href="mailto:djordje.krstic97@gmail.com">
-                      <button class="btn btn-primary">Contact me!</button>
+                      <button class="btn btn-primary">Contact me</button>
                     </a>
                   </p>
                 </div>
@@ -78,20 +70,14 @@
               <div class="services-flex">
                 <div class="one-third">
                   <div class="row">
-                    <div
-                      class="col-md-12 col-md-offset-0 animate-box intro-heading"
-                    >
+                    <div class="col-md-12 col-md-offset-0 animate-box intro-heading">
                       <span>My Services</span>
                       <h2>Here Are Some of My Skills</h2>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-12">
-                      <div
-                        class="rotate"
-                        data-aos="fade-right"
-                        data-aos-duration="1000"
-                      >
+                      <div class="rotate" data-aos="fade-right" data-aos-duration="1000">
                         <h2 class="heading">Services</h2>
                       </div>
                     </div>
@@ -120,13 +106,10 @@
                     </div>
                   </div>
                 </div>
-                <div
-                  class="one-forth services-img"
-                  :style="{
-                    backgroundImage:
-                      'url(' + require('@/assets/laptop.jpg') + ')',
-                  }"
-                ></div>
+                <div class="one-forth services-img" :style="{
+                  backgroundImage:
+                    'url(' + require('@/assets/laptop.jpg') + ')',
+                }"></div>
               </div>
             </div>
           </div>
@@ -140,11 +123,7 @@
           </div>
           <div class="row">
             <div class="col-md-12">
-              <div
-                class="rotate"
-                data-aos="fade-right"
-                data-aos-duration="1000"
-              >
+              <div class="rotate" data-aos="fade-right" data-aos-duration="1000">
                 <h2 class="heading">Background</h2>
               </div>
             </div>
@@ -152,9 +131,7 @@
               <div class="services-flex">
                 <div class="education">
                   <div class="row">
-                    <div
-                      class="col-md-12 col-md-offset-0 animate-box intro-heading"
-                    >
+                    <div class="col-md-12 col-md-offset-0 animate-box intro-heading">
                       <h2>My Educations</h2>
                     </div>
                   </div>
@@ -171,22 +148,15 @@
                             Technology
                           </li>
                         </ul>
-                        <div
-                          class="d-flex"
-                          style="
+                        <div class="d-flex" style="
                             border-top: 1px solid #ebebeb;
                             padding-top: 20px;
-                          "
-                        >
-                          <span class="mr-3 dateExperience"
-                            >6 months (2022)</span
-                          >
+                          ">
+                          <span class="mr-3 dateExperience">6 months (2022)</span>
                           <h3>- Vue JS - Esenca Software</h3>
                         </div>
                         <div class="d-flex">
-                          <span class="mr-3 dateExperience"
-                            >4 months (2023)</span
-                          >
+                          <span class="mr-3 dateExperience">4 months (2023)</span>
                           <h3>- English Language - Tesla Academy</h3>
                         </div>
                       </div>
@@ -200,9 +170,7 @@
               <div class="services-flex">
                 <div class="education">
                   <div class="row">
-                    <div
-                      class="col-md-12 col-md-offset-0 animate-box intro-heading"
-                    >
+                    <div class="col-md-12 col-md-offset-0 animate-box intro-heading">
                       <h2>My Experience</h2>
                     </div>
                   </div>
@@ -240,39 +208,25 @@
             <h2 class="bold">Works</h2>
           </div>
           <div class="row">
-            <div
-              class="col-md-12 col-md-offset-0 text-center animate-box intro-heading"
-            >
+            <div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
               <span>Portfolio</span>
               <h2>Done Projects</h2>
             </div>
           </div>
           <div class="row">
             <div class="col-md-12">
-              <div
-                class="rotate"
-                data-aos="fade-right"
-                data-aos-duration="1000"
-              >
+              <div class="rotate" data-aos="fade-right" data-aos-duration="1000">
                 <h2 class="heading">Portfolio</h2>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
-              <div
-                class="work-entry animate-box"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-              >
-                <a
-                  href="#"
-                  class="work-img"
-                  :style="{
-                    backgroundImage:
-                      'url(' + require('@/assets/katib.jpg') + ')',
-                  }"
-                >
+              <div class="work-entry animate-box" data-aos="fade-up" data-aos-duration="1000">
+                <a href="#" class="work-img" :style="{
+                  backgroundImage:
+                    'url(' + require('@/assets/katib.jpg') + ')',
+                }">
                   <div class="display-t"></div>
                 </a>
                 <div class="col-md-10">
@@ -315,10 +269,7 @@
                       <a href="https://padme.mpanel.app/" target="_blank">
                         <span class="mdi mdi-web icons two"></span>
                       </a>
-                      <a
-                        href="https://github.com/KrsticDjordje/vue-software"
-                        target="_blank"
-                      >
+                      <a href="https://github.com/KrsticDjordje/vue-software" target="_blank">
                         <span class="mdi mdi-github icons two"></span>
                       </a>
                     </p>
@@ -328,19 +279,11 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div
-                class="work-entry animate-box"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-              >
-                <a
-                  href="#"
-                  class="work-img"
-                  :style="{
-                    backgroundImage:
-                      'url(' + require('@/assets/maul.jpg') + ')',
-                  }"
-                >
+              <div class="work-entry animate-box" data-aos="fade-up" data-aos-duration="1000">
+                <a href="#" class="work-img" :style="{
+                  backgroundImage:
+                    'url(' + require('@/assets/maul.jpg') + ')',
+                }">
                   <div class="display-t"></div>
                 </a>
                 <div class="col-md-10">
@@ -381,10 +324,7 @@
                       <a href="https://padme.mpanel.app/" target="_blank">
                         <span class="mdi mdi-web icons two"></span>
                       </a>
-                      <a
-                        href="https://github.com/KrsticDjordje/e-commerce-vue"
-                        target="_blank"
-                      >
+                      <a href="https://github.com/KrsticDjordje/e-commerce-vue" target="_blank">
                         <span class="mdi mdi-github icons two"></span>
                       </a>
                     </p>
@@ -395,14 +335,10 @@
             </div>
             <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
               <div class="work-entry animate-box">
-                <a
-                  href="#"
-                  class="work-img"
-                  :style="{
-                    backgroundImage:
-                      'url(' + require('@/assets/padme.jpg') + ')',
-                  }"
-                >
+                <a href="#" class="work-img" :style="{
+                  backgroundImage:
+                    'url(' + require('@/assets/padme.jpg') + ')',
+                }">
                   <div class="display-t"></div>
                 </a>
                 <div class="col-md-10">
@@ -445,10 +381,7 @@
                       <a href="https://padme.mpanel.app/" target="_blank">
                         <span class="mdi mdi-web icons two"></span>
                       </a>
-                      <a
-                        href="https://github.com/KrsticDjordje/vue-website"
-                        target="_blank"
-                      >
+                      <a href="https://github.com/KrsticDjordje/vue-website" target="_blank">
                         <span class="mdi mdi-github icons two"></span>
                       </a>
                     </p>
@@ -459,14 +392,10 @@
             </div>
             <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
               <div class="work-entry animate-box">
-                <a
-                  href="#"
-                  class="work-img"
-                  :style="{
-                    backgroundImage:
-                      'url(' + require('@/assets/nunb.jpg') + ')',
-                  }"
-                >
+                <a href="#" class="work-img" :style="{
+                  backgroundImage:
+                    'url(' + require('@/assets/nunb.jpg') + ')',
+                }">
                   <div class="display-t"></div>
                 </a>
                 <div class="col-md-10">
@@ -495,10 +424,7 @@
                       personalized reading experience.
                     </p>
                     <p>
-                      <a
-                        href="https://github.com/KrsticDjordje/vue-pdf-reader"
-                        target="_blank"
-                      >
+                      <a href="https://github.com/KrsticDjordje/vue-pdf-reader" target="_blank">
                         <span class="mdi mdi-github icons two"></span>
                       </a>
                     </p>
