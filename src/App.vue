@@ -13,7 +13,7 @@
 
           <v-spacer></v-spacer>
 
-          <span class="mdi mdi-menu-open"></span>
+          <!-- <span class="mdi mdi-menu-open"></span> -->
         </v-row>
       </v-container>
     </v-toolbar>
